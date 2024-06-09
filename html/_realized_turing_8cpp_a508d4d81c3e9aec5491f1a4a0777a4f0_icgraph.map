@@ -1,0 +1,5 @@
+<map id="setAlphabet" name="setAlphabet">
+<area shape="rect" id="Node000001" title="Производит запись алфавита для текущей машины" alt="" coords="140,5,230,32"/>
+<area shape="rect" id="Node000002" href="$_realized_turing_8cpp.html#aa409603bc586cd6419887859ae1ae054" title="Считывание данных из файла" alt="" coords="5,5,92,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,21,92,21,92,16,124,16"/>
+</map>

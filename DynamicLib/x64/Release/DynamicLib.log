@@ -1,0 +1,7 @@
+﻿  RealizedTuring.cpp
+     Creating library C:\something\projects\DynamicLib\x64\Release\DynamicLib.lib and object C:\something\projects\DynamicLib\x64\Release\DynamicLib.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 468 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  DynamicLib.vcxproj -> C:\something\projects\DynamicLib\x64\Release\DynamicLib.dll

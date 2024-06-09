@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ИЗ_Документация_КТбо1-7_ИвановАА_27.2: Структура machine</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">ИЗ_Документация_КТбо1-7_ИвановАА_27.2<span id="projectnumber">&#160;0.0.1</span>
+   </div>
+   <div id="projectbrief">Библиотека для универсальной машины Тьюринга</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-attribs">Открытые атрибуты</a> &#124;
+<a href="structmachine-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle"><div class="title">Структура machine</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>В данной структуре находятся необходимые объекты для работы машины Тьюринга  
+ <a href="#details">Подробнее...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_realized_turing_8h_source.html">RealizedTuring.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Открытые атрибуты</h2></td></tr>
+<tr class="memitem:a3831b16164e783e659145f75d8ecacfa" id="r_a3831b16164e783e659145f75d8ecacfa"><td class="memItemLeft" align="right" valign="top">vector&lt; struct <a class="el" href="structdata.html">data</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3831b16164e783e659145f75d8ecacfa">UserVec</a></td></tr>
+<tr class="memdesc:a3831b16164e783e659145f75d8ecacfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Вектор для хранения всех состояний  <br /></td></tr>
+<tr class="separator:a3831b16164e783e659145f75d8ecacfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa93db28d5622aa24c43a9524e6d32e3f" id="r_aa93db28d5622aa24c43a9524e6d32e3f"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa93db28d5622aa24c43a9524e6d32e3f">head</a></td></tr>
+<tr class="memdesc:aa93db28d5622aa24c43a9524e6d32e3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Текущее состояние машины  <br /></td></tr>
+<tr class="separator:aa93db28d5622aa24c43a9524e6d32e3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affcb9c1945e63a22e605f7ec15278298" id="r_affcb9c1945e63a22e605f7ec15278298"><td class="memItemLeft" align="right" valign="top">deque&lt; char &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affcb9c1945e63a22e605f7ec15278298">ribbon</a></td></tr>
+<tr class="memdesc:affcb9c1945e63a22e605f7ec15278298"><td class="mdescLeft">&#160;</td><td class="mdescRight">Лента машины Тьюринга  <br /></td></tr>
+<tr class="separator:affcb9c1945e63a22e605f7ec15278298"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5e735ebba8a5ab8ff3e18203c2501ad" id="r_ab5e735ebba8a5ab8ff3e18203c2501ad"><td class="memItemLeft" align="right" valign="top">set&lt; char &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5e735ebba8a5ab8ff3e18203c2501ad">alphabet</a></td></tr>
+<tr class="memdesc:ab5e735ebba8a5ab8ff3e18203c2501ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Алфавит машины Тьюринга  <br /></td></tr>
+<tr class="separator:ab5e735ebba8a5ab8ff3e18203c2501ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34aeea3581644336f011617c584b38e8" id="r_a34aeea3581644336f011617c584b38e8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34aeea3581644336f011617c584b38e8">position</a></td></tr>
+<tr class="memdesc:a34aeea3581644336f011617c584b38e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Текущий индекс головки  <br /></td></tr>
+<tr class="separator:a34aeea3581644336f011617c584b38e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>В данной структуре находятся необходимые объекты для работы машины Тьюринга </p>
+<p>Для корректной работы необходимы следующие поля: вектор состояний, текущее состояние, лента,алфавит машины </p>
+
+<p class="definition">См. определение в файле <a class="el" href="_realized_turing_8h_source.html">RealizedTuring.h</a> строка <a class="el" href="_realized_turing_8h_source.html#l00047">47</a></p>
+</div><h2 class="groupheader">Данные класса</h2>
+<a id="ab5e735ebba8a5ab8ff3e18203c2501ad" name="ab5e735ebba8a5ab8ff3e18203c2501ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5e735ebba8a5ab8ff3e18203c2501ad">&#9670;&#160;</a></span>alphabet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">set&lt;char&gt; machine::alphabet</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Алфавит машины Тьюринга </p>
+
+<p class="definition">См. определение в файле <a class="el" href="_realized_turing_8h_source.html">RealizedTuring.h</a> строка <a class="el" href="_realized_turing_8h_source.html#l00052">52</a></p>
+
+</div>
+</div>
+<a id="aa93db28d5622aa24c43a9524e6d32e3f" name="aa93db28d5622aa24c43a9524e6d32e3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa93db28d5622aa24c43a9524e6d32e3f">&#9670;&#160;</a></span>head</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string machine::head</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Текущее состояние машины </p>
+
+<p class="definition">См. определение в файле <a class="el" href="_realized_turing_8h_source.html">RealizedTuring.h</a> строка <a class="el" href="_realized_turing_8h_source.html#l00050">50</a></p>
+
+</div>
+</div>
+<a id="a34aeea3581644336f011617c584b38e8" name="a34aeea3581644336f011617c584b38e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34aeea3581644336f011617c584b38e8">&#9670;&#160;</a></span>position</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int machine::position</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Текущий индекс головки </p>
+
+<p class="definition">См. определение в файле <a class="el" href="_realized_turing_8h_source.html">RealizedTuring.h</a> строка <a class="el" href="_realized_turing_8h_source.html#l00053">53</a></p>
+
+</div>
+</div>
+<a id="affcb9c1945e63a22e605f7ec15278298" name="affcb9c1945e63a22e605f7ec15278298"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affcb9c1945e63a22e605f7ec15278298">&#9670;&#160;</a></span>ribbon</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">deque&lt;char&gt; machine::ribbon</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Лента машины Тьюринга </p>
+
+<p class="definition">См. определение в файле <a class="el" href="_realized_turing_8h_source.html">RealizedTuring.h</a> строка <a class="el" href="_realized_turing_8h_source.html#l00051">51</a></p>
+
+</div>
+</div>
+<a id="a3831b16164e783e659145f75d8ecacfa" name="a3831b16164e783e659145f75d8ecacfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3831b16164e783e659145f75d8ecacfa">&#9670;&#160;</a></span>UserVec</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">vector&lt;struct <a class="el" href="structdata.html">data</a>&gt; machine::UserVec</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Вектор для хранения всех состояний </p>
+
+<p class="definition">См. определение в файле <a class="el" href="_realized_turing_8h_source.html">RealizedTuring.h</a> строка <a class="el" href="_realized_turing_8h_source.html#l00049">49</a></p>
+
+</div>
+</div>
+<hr/>Объявления и описания членов структуры находятся в файле:<ul>
+<li><a class="el" href="_realized_turing_8h_source.html">RealizedTuring.h</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

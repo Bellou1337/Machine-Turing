@@ -1,0 +1,624 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ИЗ_Документация_КТбо1-7_ИвановАА_27.2: Файл RealizedTuring.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">ИЗ_Документация_КТбо1-7_ИвановАА_27.2<span id="projectnumber">&#160;0.0.1</span>
+   </div>
+   <div id="projectbrief">Библиотека для универсальной машины Тьюринга</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Классы</a> &#124;
+<a href="#func-members">Функции</a>  </div>
+  <div class="headertitle"><div class="title">Файл RealizedTuring.h</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Заголовочный файл для определения всех функций и структур в dll.  
+<a href="#details">Подробнее...</a></p>
+<div class="textblock"><code>#include &lt;string&gt;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
+<code>#include &lt;deque&gt;</code><br />
+<code>#include &lt;set&gt;</code><br />
+<code>#include &lt;clocale&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Граф включаемых заголовочных файлов для RealizedTuring.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="_realized_turing_8h__incl.png" border="0" usemap="#a_realized_turing_8h" alt=""/></div>
+<map name="a_realized_turing_8h" id="a_realized_turing_8h">
+<area shape="rect" title="Заголовочный файл для определения всех функций и структур в dll." alt="" coords="232,5,349,32"/>
+<area shape="rect" title=" " alt="" coords="5,80,59,107"/>
+<area shape="poly" title=" " alt="" coords="243,35,74,82,73,77,242,30"/>
+<area shape="rect" title=" " alt="" coords="83,80,154,107"/>
+<area shape="poly" title=" " alt="" coords="262,35,164,76,162,71,260,30"/>
+<area shape="rect" title=" " alt="" coords="179,80,234,107"/>
+<area shape="poly" title=" " alt="" coords="278,35,234,72,231,68,274,31"/>
+<area shape="rect" title=" " alt="" coords="259,80,323,107"/>
+<area shape="poly" title=" " alt="" coords="293,33,293,64,288,64,288,33"/>
+<area shape="rect" title=" " alt="" coords="347,80,403,107"/>
+<area shape="poly" title=" " alt="" coords="307,31,350,68,347,72,304,35"/>
+<area shape="rect" title=" " alt="" coords="427,80,466,107"/>
+<area shape="poly" title=" " alt="" coords="319,30,414,74,412,79,317,35"/>
+<area shape="rect" title=" " alt="" coords="490,80,553,107"/>
+<area shape="poly" title=" " alt="" coords="332,30,476,75,474,80,330,35"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+Граф файлов, в которые включается этот файл:</div>
+<div class="dyncontent">
+<div class="center"><img src="_realized_turing_8h__dep__incl.png" border="0" usemap="#a_realized_turing_8hdep" alt=""/></div>
+<map name="a_realized_turing_8hdep" id="a_realized_turing_8hdep">
+<area shape="rect" title="Заголовочный файл для определения всех функций и структур в dll." alt="" coords="12,5,130,32"/>
+<area shape="rect" href="_realized_turing_8cpp.html" title="Файл c реализацией машины Тьюринга" alt="" coords="5,80,137,107"/>
+<area shape="poly" title=" " alt="" coords="74,48,74,80,68,80,68,48"/>
+</map>
+</div>
+</div>
+<p><a href="_realized_turing_8h_source.html">См. исходные тексты.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Классы</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdata.html">data</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">В данной структуре содержатся все состояния, необходимые для работы машины  <a href="structdata.html#details">Подробнее...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmachine.html">machine</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">В данной структуре находятся необходимые объекты для работы машины Тьюринга  <a href="structmachine.html#details">Подробнее...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Функции</h2></td></tr>
+<tr class="memitem:aa409603bc586cd6419887859ae1ae054" id="r_aa409603bc586cd6419887859ae1ae054"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa409603bc586cd6419887859ae1ae054">ReadTuring</a> ()</td></tr>
+<tr class="memdesc:aa409603bc586cd6419887859ae1ae054"><td class="mdescLeft">&#160;</td><td class="mdescRight">Считывание данных из файла  <br /></td></tr>
+<tr class="separator:aa409603bc586cd6419887859ae1ae054"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae508f8f1ff18ebda3acf51d3bca8e050" id="r_ae508f8f1ff18ebda3acf51d3bca8e050"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae508f8f1ff18ebda3acf51d3bca8e050">StartFunc</a> ()</td></tr>
+<tr class="memdesc:ae508f8f1ff18ebda3acf51d3bca8e050"><td class="mdescLeft">&#160;</td><td class="mdescRight">Выполняет полный цикл работы машины Тьюринга  <br /></td></tr>
+<tr class="separator:ae508f8f1ff18ebda3acf51d3bca8e050"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a050bfb27192eada4e840d4c3fdaa952e" id="r_a050bfb27192eada4e840d4c3fdaa952e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a050bfb27192eada4e840d4c3fdaa952e">ChangeRibbon</a> ()</td></tr>
+<tr class="memdesc:a050bfb27192eada4e840d4c3fdaa952e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Добавляет к исходной ленте пробелы слева и справа  <br /></td></tr>
+<tr class="separator:a050bfb27192eada4e840d4c3fdaa952e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac60edfa6b3079302e96168803e96b892" id="r_ac60edfa6b3079302e96168803e96b892"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac60edfa6b3079302e96168803e96b892">InitTuring</a> (string &amp;)</td></tr>
+<tr class="memdesc:ac60edfa6b3079302e96168803e96b892"><td class="mdescLeft">&#160;</td><td class="mdescRight">Инициализирует ленту машины Тьюринга и ставит головку на нужную позицию  <br /></td></tr>
+<tr class="separator:ac60edfa6b3079302e96168803e96b892"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd3dba95cb1c91e424ea82738e477a90" id="r_afd3dba95cb1c91e424ea82738e477a90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd3dba95cb1c91e424ea82738e477a90">ClearRibbon</a> ()</td></tr>
+<tr class="memdesc:afd3dba95cb1c91e424ea82738e477a90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Очищает ленту для записи следующего слова пользователя  <br /></td></tr>
+<tr class="separator:afd3dba95cb1c91e424ea82738e477a90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1151a9aa02a8a042aa9bbf7354e15a79" id="r_a1151a9aa02a8a042aa9bbf7354e15a79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1151a9aa02a8a042aa9bbf7354e15a79">ClearMT</a> ()</td></tr>
+<tr class="memdesc:a1151a9aa02a8a042aa9bbf7354e15a79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Очищает вектор состояний для машины Тьюринга  <br /></td></tr>
+<tr class="separator:a1151a9aa02a8a042aa9bbf7354e15a79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab48fb1dd724bb121cbc02304de1d61e9" id="r_ab48fb1dd724bb121cbc02304de1d61e9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab48fb1dd724bb121cbc02304de1d61e9">CheckAlphabet</a> ()</td></tr>
+<tr class="memdesc:ab48fb1dd724bb121cbc02304de1d61e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Производит проверку ленты на соответствие алфавиту  <br /></td></tr>
+<tr class="separator:ab48fb1dd724bb121cbc02304de1d61e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9c0e4311cedb3150df6f5e4e86b5242" id="r_af9c0e4311cedb3150df6f5e4e86b5242"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9c0e4311cedb3150df6f5e4e86b5242">ClearAlphabet</a> ()</td></tr>
+<tr class="memdesc:af9c0e4311cedb3150df6f5e4e86b5242"><td class="mdescLeft">&#160;</td><td class="mdescRight">Очищает алфавит для текущей машины  <br /></td></tr>
+<tr class="separator:af9c0e4311cedb3150df6f5e4e86b5242"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfa08884a697638477ccd334aa0ca993" id="r_abfa08884a697638477ccd334aa0ca993"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfa08884a697638477ccd334aa0ca993">RemoveHead</a> ()</td></tr>
+<tr class="memdesc:abfa08884a697638477ccd334aa0ca993"><td class="mdescLeft">&#160;</td><td class="mdescRight">Очищает данные о текущем положении головки машины  <br /></td></tr>
+<tr class="separator:abfa08884a697638477ccd334aa0ca993"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8292d31be30d70beb1135156dcee62bc" id="r_a8292d31be30d70beb1135156dcee62bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8292d31be30d70beb1135156dcee62bc">PrintInitialConf</a> ()</td></tr>
+<tr class="memdesc:a8292d31be30d70beb1135156dcee62bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Вывод начальной конфигурации на экран  <br /></td></tr>
+<tr class="separator:a8292d31be30d70beb1135156dcee62bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29b9f307b59ca952ff5416f81094774b" id="r_a29b9f307b59ca952ff5416f81094774b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29b9f307b59ca952ff5416f81094774b">RemovePosition</a> ()</td></tr>
+<tr class="memdesc:a29b9f307b59ca952ff5416f81094774b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращение позиции головки в исходное состояние  <br /></td></tr>
+<tr class="separator:a29b9f307b59ca952ff5416f81094774b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4293782e8e49fabc724ce1e8b6bbd0f" id="r_af4293782e8e49fabc724ce1e8b6bbd0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4293782e8e49fabc724ce1e8b6bbd0f">PrintResult</a> ()</td></tr>
+<tr class="memdesc:af4293782e8e49fabc724ce1e8b6bbd0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Осуществляет вывод результата работы машины  <br /></td></tr>
+<tr class="separator:af4293782e8e49fabc724ce1e8b6bbd0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Заголовочный файл для определения всех функций и структур в dll. </p>
+<dl class="section author"><dt>Автор</dt><dd>Иванов А.А, КТбо1-7 </dd></dl>
+<dl class="section date"><dt>Дата</dt><dd>Дата последней модификации - 18.05.2024 </dd></dl>
+
+<p class="definition">См. определение в файле <a class="el" href="_realized_turing_8h_source.html">RealizedTuring.h</a></p>
+</div><h2 class="groupheader">Функции</h2>
+<a id="a050bfb27192eada4e840d4c3fdaa952e" name="a050bfb27192eada4e840d4c3fdaa952e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a050bfb27192eada4e840d4c3fdaa952e">&#9670;&#160;</a></span>ChangeRibbon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ChangeRibbon </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Добавляет к исходной ленте пробелы слева и справа </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">MyTuring.ribbon</td><td>- текущая лента машины </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">См. определение в файле <a class="el" href="_realized_turing_8cpp_source.html">RealizedTuring.cpp</a> строка <a class="el" href="_realized_turing_8cpp_source.html#l00263">263</a></p>
+<div class="fragment"><div class="line"><span class="lineno">  264</span>{</div>
+<div class="line"><span class="lineno">  265</span>    <a class="code hl_variable" href="_realized_turing_8cpp.html#aa7b99718df723ae10576f7834252bbf7">MyTuring</a>.<a class="code hl_variable" href="structmachine.html#affcb9c1945e63a22e605f7ec15278298">ribbon</a>.push_back(<span class="charliteral">&#39;_&#39;</span>);</div>
+<div class="line"><span class="lineno">  266</span>    <a class="code hl_variable" href="_realized_turing_8cpp.html#aa7b99718df723ae10576f7834252bbf7">MyTuring</a>.<a class="code hl_variable" href="structmachine.html#affcb9c1945e63a22e605f7ec15278298">ribbon</a>.push_front(<span class="charliteral">&#39;_&#39;</span>);</div>
+<div class="line"><span class="lineno">  267</span>}</div>
+<div class="ttc" id="a_realized_turing_8cpp_html_aa7b99718df723ae10576f7834252bbf7"><div class="ttname"><a href="_realized_turing_8cpp.html#aa7b99718df723ae10576f7834252bbf7">MyTuring</a></div><div class="ttdeci">struct machine MyTuring</div><div class="ttdoc">Структура для хранения машины</div><div class="ttdef"><b>Definition</b> <a href="_realized_turing_8cpp_source.html#l00024">RealizedTuring.cpp:24</a></div></div>
+<div class="ttc" id="astructmachine_html_affcb9c1945e63a22e605f7ec15278298"><div class="ttname"><a href="structmachine.html#affcb9c1945e63a22e605f7ec15278298">machine::ribbon</a></div><div class="ttdeci">deque&lt; char &gt; ribbon</div><div class="ttdoc">Лента машины Тьюринга</div><div class="ttdef"><b>Definition</b> <a href="_realized_turing_8h_source.html#l00051">RealizedTuring.h:51</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ab48fb1dd724bb121cbc02304de1d61e9" name="ab48fb1dd724bb121cbc02304de1d61e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab48fb1dd724bb121cbc02304de1d61e9">&#9670;&#160;</a></span>CheckAlphabet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CheckAlphabet </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Производит проверку ленты на соответствие алфавиту </p>
+
+<p class="definition">См. определение в файле <a class="el" href="_realized_turing_8cpp_source.html">RealizedTuring.cpp</a> строка <a class="el" href="_realized_turing_8cpp_source.html#l00097">97</a></p>
+<div class="fragment"><div class="line"><span class="lineno">   98</span>{</div>
+<div class="line"><span class="lineno">   99</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code hl_variable" href="_realized_turing_8cpp.html#aa7b99718df723ae10576f7834252bbf7">MyTuring</a>.<a class="code hl_variable" href="structmachine.html#affcb9c1945e63a22e605f7ec15278298">ribbon</a>.size(); ++i)</div>
+<div class="line"><span class="lineno">  100</span>    {</div>
+<div class="line"><span class="lineno">  101</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="_realized_turing_8cpp.html#aa7b99718df723ae10576f7834252bbf7">MyTuring</a>.<a class="code hl_variable" href="structmachine.html#ab5e735ebba8a5ab8ff3e18203c2501ad">alphabet</a>.count(<a class="code hl_variable" href="_realized_turing_8cpp.html#aa7b99718df723ae10576f7834252bbf7">MyTuring</a>.<a class="code hl_variable" href="structmachine.html#affcb9c1945e63a22e605f7ec15278298">ribbon</a>[i])) <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  102</span>    }</div>
+<div class="line"><span class="lineno">  103</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  104</span>}</div>
+<div class="ttc" id="astructmachine_html_ab5e735ebba8a5ab8ff3e18203c2501ad"><div class="ttname"><a href="structmachine.html#ab5e735ebba8a5ab8ff3e18203c2501ad">machine::alphabet</a></div><div class="ttdeci">set&lt; char &gt; alphabet</div><div class="ttdoc">Алфавит машины Тьюринга</div><div class="ttdef"><b>Definition</b> <a href="_realized_turing_8h_source.html#l00052">RealizedTuring.h:52</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="af9c0e4311cedb3150df6f5e4e86b5242" name="af9c0e4311cedb3150df6f5e4e86b5242"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9c0e4311cedb3150df6f5e4e86b5242">&#9670;&#160;</a></span>ClearAlphabet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClearAlphabet </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Очищает алфавит для текущей машины </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">-</td><td>текущий алфавит машины </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">См. определение в файле <a class="el" href="_realized_turing_8cpp_source.html">RealizedTuring.cpp</a> строка <a class="el" href="_realized_turing_8cpp_source.html#l00292">292</a></p>
+<div class="fragment"><div class="line"><span class="lineno">  293</span>{</div>
+<div class="line"><span class="lineno">  294</span>    <a class="code hl_variable" href="_realized_turing_8cpp.html#aa7b99718df723ae10576f7834252bbf7">MyTuring</a>.<a class="code hl_variable" href="structmachine.html#ab5e735ebba8a5ab8ff3e18203c2501ad">alphabet</a>.clear();</div>
+<div class="line"><span class="lineno">  295</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a1151a9aa02a8a042aa9bbf7354e15a79" name="a1151a9aa02a8a042aa9bbf7354e15a79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1151a9aa02a8a042aa9bbf7354e15a79">&#9670;&#160;</a></span>ClearMT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClearMT </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Очищает вектор состояний для машины Тьюринга </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">-</td><td>текущий вектор состояний </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">См. определение в файле <a class="el" href="_realized_turing_8cpp_source.html">RealizedTuring.cpp</a> строка <a class="el" href="_realized_turing_8cpp_source.html#l00283">283</a></p>
+<div class="fragment"><div class="line"><span class="lineno">  284</span>{</div>
+<div class="line"><span class="lineno">  285</span>    <a class="code hl_variable" href="_realized_turing_8cpp.html#aa7b99718df723ae10576f7834252bbf7">MyTuring</a>.<a class="code hl_variable" href="structmachine.html#a3831b16164e783e659145f75d8ecacfa">UserVec</a>.clear();</div>
+<div class="line"><span class="lineno">  286</span>}</div>
+<div class="ttc" id="astructmachine_html_a3831b16164e783e659145f75d8ecacfa"><div class="ttname"><a href="structmachine.html#a3831b16164e783e659145f75d8ecacfa">machine::UserVec</a></div><div class="ttdeci">vector&lt; struct data &gt; UserVec</div><div class="ttdoc">Вектор для хранения всех состояний</div><div class="ttdef"><b>Definition</b> <a href="_realized_turing_8h_source.html#l00049">RealizedTuring.h:49</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="afd3dba95cb1c91e424ea82738e477a90" name="afd3dba95cb1c91e424ea82738e477a90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd3dba95cb1c91e424ea82738e477a90">&#9670;&#160;</a></span>ClearRibbon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClearRibbon </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Очищает ленту для записи следующего слова пользователя </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">MyTuring.ribbon</td><td>- текущая лента машины </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">См. определение в файле <a class="el" href="_realized_turing_8cpp_source.html">RealizedTuring.cpp</a> строка <a class="el" href="_realized_turing_8cpp_source.html#l00274">274</a></p>
+<div class="fragment"><div class="line"><span class="lineno">  275</span>{</div>
+<div class="line"><span class="lineno">  276</span>    <a class="code hl_variable" href="_realized_turing_8cpp.html#aa7b99718df723ae10576f7834252bbf7">MyTuring</a>.<a class="code hl_variable" href="structmachine.html#affcb9c1945e63a22e605f7ec15278298">ribbon</a>.clear();</div>
+<div class="line"><span class="lineno">  277</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ac60edfa6b3079302e96168803e96b892" name="ac60edfa6b3079302e96168803e96b892"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac60edfa6b3079302e96168803e96b892">&#9670;&#160;</a></span>InitTuring()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InitTuring </td>
+          <td>(</td>
+          <td class="paramtype">string &amp;</td>          <td class="paramname"><span class="paramname"><em>userWord</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Инициализирует ленту машины Тьюринга и ставит головку на нужную позицию </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">userWord</td><td>исходная строка пользователя </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">MyTuring.head</td><td>- имя текущего состояния машины </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">MyTuring.position</td><td>- индекс головки </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">См. определение в файле <a class="el" href="_realized_turing_8cpp_source.html">RealizedTuring.cpp</a> строка <a class="el" href="_realized_turing_8cpp_source.html#l00033">33</a></p>
+<div class="fragment"><div class="line"><span class="lineno">   34</span>{</div>
+<div class="line"><span class="lineno">   35</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; userWord.size(); ++i)</div>
+<div class="line"><span class="lineno">   36</span>    {</div>
+<div class="line"><span class="lineno">   37</span>        <a class="code hl_variable" href="_realized_turing_8cpp.html#aa7b99718df723ae10576f7834252bbf7">MyTuring</a>.<a class="code hl_variable" href="structmachine.html#affcb9c1945e63a22e605f7ec15278298">ribbon</a>.push_back(userWord[i]);</div>
+<div class="line"><span class="lineno">   38</span>    }</div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_variable" href="_realized_turing_8cpp.html#aa7b99718df723ae10576f7834252bbf7">MyTuring</a>.<a class="code hl_variable" href="structmachine.html#aa93db28d5622aa24c43a9524e6d32e3f">head</a> = <span class="stringliteral">&quot;q1&quot;</span>;</div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_variable" href="_realized_turing_8cpp.html#aa7b99718df723ae10576f7834252bbf7">MyTuring</a>.<a class="code hl_variable" href="structmachine.html#a34aeea3581644336f011617c584b38e8">position</a> = 1;</div>
+<div class="line"><span class="lineno">   41</span>}</div>
+<div class="ttc" id="astructmachine_html_a34aeea3581644336f011617c584b38e8"><div class="ttname"><a href="structmachine.html#a34aeea3581644336f011617c584b38e8">machine::position</a></div><div class="ttdeci">int position</div><div class="ttdoc">Текущий индекс головки</div><div class="ttdef"><b>Definition</b> <a href="_realized_turing_8h_source.html#l00053">RealizedTuring.h:53</a></div></div>
+<div class="ttc" id="astructmachine_html_aa93db28d5622aa24c43a9524e6d32e3f"><div class="ttname"><a href="structmachine.html#aa93db28d5622aa24c43a9524e6d32e3f">machine::head</a></div><div class="ttdeci">string head</div><div class="ttdoc">Текущее состояние машины</div><div class="ttdef"><b>Definition</b> <a href="_realized_turing_8h_source.html#l00050">RealizedTuring.h:50</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a8292d31be30d70beb1135156dcee62bc" name="a8292d31be30d70beb1135156dcee62bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8292d31be30d70beb1135156dcee62bc">&#9670;&#160;</a></span>PrintInitialConf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PrintInitialConf </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Вывод начальной конфигурации на экран </p>
+
+<p class="definition">См. определение в файле <a class="el" href="_realized_turing_8cpp_source.html">RealizedTuring.cpp</a> строка <a class="el" href="_realized_turing_8cpp_source.html#l00308">308</a></p>
+<div class="fragment"><div class="line"><span class="lineno">  309</span>{</div>
+<div class="line"><span class="lineno">  310</span>    <span class="keywordtype">string</span> strForPrint = string(<a class="code hl_variable" href="_realized_turing_8cpp.html#aa7b99718df723ae10576f7834252bbf7">MyTuring</a>.<a class="code hl_variable" href="structmachine.html#affcb9c1945e63a22e605f7ec15278298">ribbon</a>.begin(),<a class="code hl_variable" href="_realized_turing_8cpp.html#aa7b99718df723ae10576f7834252bbf7">MyTuring</a>.<a class="code hl_variable" href="structmachine.html#affcb9c1945e63a22e605f7ec15278298">ribbon</a>.end());</div>
+<div class="line"><span class="lineno">  311</span>    <span class="keywordtype">string</span> begin = strForPrint.substr(0, <a class="code hl_variable" href="_realized_turing_8cpp.html#aa7b99718df723ae10576f7834252bbf7">MyTuring</a>.<a class="code hl_variable" href="structmachine.html#a34aeea3581644336f011617c584b38e8">position</a>) + <span class="stringliteral">&quot;&lt;q1&gt;&quot;</span> + strForPrint.substr(<a class="code hl_variable" href="_realized_turing_8cpp.html#aa7b99718df723ae10576f7834252bbf7">MyTuring</a>.<a class="code hl_variable" href="structmachine.html#a34aeea3581644336f011617c584b38e8">position</a>, strForPrint.size());</div>
+<div class="line"><span class="lineno">  312</span>    cout&lt;&lt; begin &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">  313</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="af4293782e8e49fabc724ce1e8b6bbd0f" name="af4293782e8e49fabc724ce1e8b6bbd0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4293782e8e49fabc724ce1e8b6bbd0f">&#9670;&#160;</a></span>PrintResult()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PrintResult </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Осуществляет вывод результата работы машины </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">stringForPrint</td><td>- лента машины для вывода на экран </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">См. определение в файле <a class="el" href="_realized_turing_8cpp_source.html">RealizedTuring.cpp</a> строка <a class="el" href="_realized_turing_8cpp_source.html#l00147">147</a></p>
+<div class="fragment"><div class="line"><span class="lineno">  148</span>{</div>
+<div class="line"><span class="lineno">  149</span>    </div>
+<div class="line"><span class="lineno">  150</span>    <span class="keywordtype">string</span> searchRibbon = string(<a class="code hl_variable" href="_realized_turing_8cpp.html#aa7b99718df723ae10576f7834252bbf7">MyTuring</a>.<a class="code hl_variable" href="structmachine.html#affcb9c1945e63a22e605f7ec15278298">ribbon</a>.begin(), <a class="code hl_variable" href="_realized_turing_8cpp.html#aa7b99718df723ae10576f7834252bbf7">MyTuring</a>.<a class="code hl_variable" href="structmachine.html#affcb9c1945e63a22e605f7ec15278298">ribbon</a>.end());</div>
+<div class="line"><span class="lineno">  151</span>    <span class="keywordtype">string</span> stringForPrint = searchRibbon.substr(0, <a class="code hl_variable" href="_realized_turing_8cpp.html#aa7b99718df723ae10576f7834252bbf7">MyTuring</a>.<a class="code hl_variable" href="structmachine.html#a34aeea3581644336f011617c584b38e8">position</a>) + <span class="stringliteral">&quot;&lt;&quot;</span> + <a class="code hl_variable" href="_realized_turing_8cpp.html#aa7b99718df723ae10576f7834252bbf7">MyTuring</a>.<a class="code hl_variable" href="structmachine.html#aa93db28d5622aa24c43a9524e6d32e3f">head</a> + <span class="stringliteral">&quot;&gt;&quot;</span> + searchRibbon.substr(<a class="code hl_variable" href="_realized_turing_8cpp.html#aa7b99718df723ae10576f7834252bbf7">MyTuring</a>.<a class="code hl_variable" href="structmachine.html#a34aeea3581644336f011617c584b38e8">position</a>, searchRibbon.size());</div>
+<div class="line"><span class="lineno">  152</span>    cout&lt;&lt; stringForPrint &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">  153</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aa409603bc586cd6419887859ae1ae054" name="aa409603bc586cd6419887859ae1ae054"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa409603bc586cd6419887859ae1ae054">&#9670;&#160;</a></span>ReadTuring()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ReadTuring </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Считывание данных из файла </p>
+<p>Осуществляет считывание данных из файла и записывает их вектор, в котором хранится структура данных для каждого состояния </p>
+
+<p class="definition">См. определение в файле <a class="el" href="_realized_turing_8cpp_source.html">RealizedTuring.cpp</a> строка <a class="el" href="_realized_turing_8cpp_source.html#l00062">62</a></p>
+<div class="fragment"><div class="line"><span class="lineno">   63</span>{</div>
+<div class="line"><span class="lineno">   64</span>    setlocale(LC_ALL, <span class="stringliteral">&quot;Rus&quot;</span>);</div>
+<div class="line"><span class="lineno">   65</span>    <span class="comment">// запись с файла</span></div>
+<div class="line"><span class="lineno">   66</span>    ifstream file(<span class="stringliteral">&quot;input.txt&quot;</span>);</div>
+<div class="line"><span class="lineno">   67</span>    <span class="keywordflow">if</span> (!file.is_open())</div>
+<div class="line"><span class="lineno">   68</span>    {</div>
+<div class="line"><span class="lineno">   69</span>        cout &lt;&lt; <span class="stringliteral">&quot;Ошибка при открытии файла!&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">   70</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   71</span>    }</div>
+<div class="line"><span class="lineno">   72</span>    <span class="comment">// запись алфавита</span></div>
+<div class="line"><span class="lineno">   73</span>    <span class="keywordtype">string</span> Stralphabet;</div>
+<div class="line"><span class="lineno">   74</span>    file &gt;&gt; Stralphabet;</div>
+<div class="line"><span class="lineno">   75</span>    <a class="code hl_function" href="_realized_turing_8cpp.html#a508d4d81c3e9aec5491f1a4a0777a4f0">setAlphabet</a>(Stralphabet);</div>
+<div class="line"><span class="lineno">   76</span>    <span class="comment">// запись состояний</span></div>
+<div class="line"><span class="lineno">   77</span>    <span class="keywordtype">string</span> name;</div>
+<div class="line"><span class="lineno">   78</span>    <span class="keywordtype">bool</span> last;</div>
+<div class="line"><span class="lineno">   79</span>    <span class="keywordtype">char</span> symbol;</div>
+<div class="line"><span class="lineno">   80</span>    <span class="keywordtype">char</span> symbolAdd;</div>
+<div class="line"><span class="lineno">   81</span>    <span class="keywordtype">char</span> action;</div>
+<div class="line"><span class="lineno">   82</span>    <span class="keywordtype">string</span> next;</div>
+<div class="line"><span class="lineno">   83</span>    <span class="keywordflow">while</span>(file &gt;&gt; name &gt;&gt; last &gt;&gt; symbol &gt;&gt; symbolAdd &gt;&gt; action &gt;&gt; next)</div>
+<div class="line"><span class="lineno">   84</span>    {       </div>
+<div class="line"><span class="lineno">   85</span>        <span class="keywordflow">if</span> (symbol == <span class="charliteral">&#39;x&#39;</span>) symbol = <span class="charliteral">&#39;_&#39;</span>;</div>
+<div class="line"><span class="lineno">   86</span>        <span class="keywordflow">if</span> (symbolAdd == <span class="charliteral">&#39;x&#39;</span>) symbolAdd = <span class="charliteral">&#39;_&#39;</span>;</div>
+<div class="line"><span class="lineno">   87</span>        <a class="code hl_variable" href="_realized_turing_8cpp.html#aa7b99718df723ae10576f7834252bbf7">MyTuring</a>.<a class="code hl_variable" href="structmachine.html#a3831b16164e783e659145f75d8ecacfa">UserVec</a>.push_back({ name,last,symbol,symbolAdd,action,next });</div>
+<div class="line"><span class="lineno">   88</span>    }</div>
+<div class="line"><span class="lineno">   89</span>    file.close();</div>
+<div class="line"><span class="lineno">   90</span> </div>
+<div class="line"><span class="lineno">   91</span>};</div>
+<div class="ttc" id="a_realized_turing_8cpp_html_a508d4d81c3e9aec5491f1a4a0777a4f0"><div class="ttname"><a href="_realized_turing_8cpp.html#a508d4d81c3e9aec5491f1a4a0777a4f0">setAlphabet</a></div><div class="ttdeci">void setAlphabet(string Stralphabet)</div><div class="ttdoc">Производит запись алфавита для текущей машины</div><div class="ttdef"><b>Definition</b> <a href="_realized_turing_8cpp_source.html#l00047">RealizedTuring.cpp:47</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Граф вызовов:</div>
+<div class="dyncontent">
+<div class="center"><img src="_realized_turing_8h_aa409603bc586cd6419887859ae1ae054_cgraph.png" border="0" usemap="#a_realized_turing_8h_aa409603bc586cd6419887859ae1ae054_cgraph" alt=""/></div>
+<map name="a_realized_turing_8h_aa409603bc586cd6419887859ae1ae054_cgraph" id="a_realized_turing_8h_aa409603bc586cd6419887859ae1ae054_cgraph">
+<area shape="rect" title="Считывание данных из файла" alt="" coords="5,5,92,32"/>
+<area shape="rect" href="_realized_turing_8cpp.html#a508d4d81c3e9aec5491f1a4a0777a4f0" title="Производит запись алфавита для текущей машины" alt="" coords="140,5,230,32"/>
+<area shape="poly" title=" " alt="" coords="92,16,124,16,124,21,92,21"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="abfa08884a697638477ccd334aa0ca993" name="abfa08884a697638477ccd334aa0ca993"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfa08884a697638477ccd334aa0ca993">&#9670;&#160;</a></span>RemoveHead()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RemoveHead </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Очищает данные о текущем положении головки машины </p>
+
+<p class="definition">См. определение в файле <a class="el" href="_realized_turing_8cpp_source.html">RealizedTuring.cpp</a> строка <a class="el" href="_realized_turing_8cpp_source.html#l00300">300</a></p>
+<div class="fragment"><div class="line"><span class="lineno">  301</span>{</div>
+<div class="line"><span class="lineno">  302</span>    <a class="code hl_variable" href="_realized_turing_8cpp.html#aa7b99718df723ae10576f7834252bbf7">MyTuring</a>.<a class="code hl_variable" href="structmachine.html#aa93db28d5622aa24c43a9524e6d32e3f">head</a>.clear();</div>
+<div class="line"><span class="lineno">  303</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a29b9f307b59ca952ff5416f81094774b" name="a29b9f307b59ca952ff5416f81094774b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29b9f307b59ca952ff5416f81094774b">&#9670;&#160;</a></span>RemovePosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RemovePosition </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Возвращение позиции головки в исходное состояние </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">MyTruing.position</td><td>- текущий индекс головки машины </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">См. определение в файле <a class="el" href="_realized_turing_8cpp_source.html">RealizedTuring.cpp</a> строка <a class="el" href="_realized_turing_8cpp_source.html#l00319">319</a></p>
+<div class="fragment"><div class="line"><span class="lineno">  320</span>{</div>
+<div class="line"><span class="lineno">  321</span>    <a class="code hl_variable" href="_realized_turing_8cpp.html#aa7b99718df723ae10576f7834252bbf7">MyTuring</a>.<a class="code hl_variable" href="structmachine.html#a34aeea3581644336f011617c584b38e8">position</a> = 1;</div>
+<div class="line"><span class="lineno">  322</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae508f8f1ff18ebda3acf51d3bca8e050" name="ae508f8f1ff18ebda3acf51d3bca8e050"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae508f8f1ff18ebda3acf51d3bca8e050">&#9670;&#160;</a></span>StartFunc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void StartFunc </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Выполняет полный цикл работы машины Тьюринга </p>
+<p>В функции происходит следующее :</p><ol type="1">
+<li>Если мы пришли в заключающее состояние,то происходит остановка машины</li>
+<li>Вызывается функция одного шага машины</li>
+<li>Если произошла ошибка то работа машины также прекращается</li>
+<li>Вызывается функция вывода текущей ленты на экран </li>
+</ol>
+
+<p class="definition">См. определение в файле <a class="el" href="_realized_turing_8cpp_source.html">RealizedTuring.cpp</a> строка <a class="el" href="_realized_turing_8cpp_source.html#l00236">236</a></p>
+<div class="fragment"><div class="line"><span class="lineno">  237</span>{</div>
+<div class="line"><span class="lineno">  238</span>    setlocale(LC_ALL, <span class="stringliteral">&quot;Rus&quot;</span>);</div>
+<div class="line"><span class="lineno">  239</span>    <span class="keywordtype">int</span> counter = 10000;</div>
+<div class="line"><span class="lineno">  240</span>    <span class="keywordflow">while</span> (<span class="keyword">true</span> &amp;&amp; counter)</div>
+<div class="line"><span class="lineno">  241</span>    {</div>
+<div class="line"><span class="lineno">  242</span>        <span class="keywordtype">bool</span> error = 0;</div>
+<div class="line"><span class="lineno">  243</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="_realized_turing_8cpp.html#aa7b99718df723ae10576f7834252bbf7">MyTuring</a>.<a class="code hl_variable" href="structmachine.html#aa93db28d5622aa24c43a9524e6d32e3f">head</a> == <span class="stringliteral">&quot;q0&quot;</span>)</div>
+<div class="line"><span class="lineno">  244</span>        {</div>
+<div class="line"><span class="lineno">  245</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  246</span>        }</div>
+<div class="line"><span class="lineno">  247</span>        <a class="code hl_function" href="_realized_turing_8cpp.html#a97253657ceb321fb00beff34bc72a3ee">OneStepTur</a>(error);</div>
+<div class="line"><span class="lineno">  248</span>        <span class="keywordflow">if</span> (error) <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  249</span>        <a class="code hl_function" href="_realized_turing_8cpp.html#a65ee995b2e5bb49ea0d97f5d6bb2a95b">PrintConfig</a>(<a class="code hl_variable" href="_realized_turing_8cpp.html#aa7b99718df723ae10576f7834252bbf7">MyTuring</a>);</div>
+<div class="line"><span class="lineno">  250</span>        counter--;</div>
+<div class="line"><span class="lineno">  251</span>    }</div>
+<div class="line"><span class="lineno">  252</span>    <span class="keywordflow">if</span>(!counter)</div>
+<div class="line"><span class="lineno">  253</span>    {</div>
+<div class="line"><span class="lineno">  254</span>        cout &lt;&lt; <span class="stringliteral">&quot;Извините, но машина не может делать более 10000 шагов&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">  255</span>        cout &lt;&lt; <span class="stringliteral">&quot;Попробуйте уменьшить входное слово&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">  256</span>    }</div>
+<div class="line"><span class="lineno">  257</span>}</div>
+<div class="ttc" id="a_realized_turing_8cpp_html_a65ee995b2e5bb49ea0d97f5d6bb2a95b"><div class="ttname"><a href="_realized_turing_8cpp.html#a65ee995b2e5bb49ea0d97f5d6bb2a95b">PrintConfig</a></div><div class="ttdeci">void PrintConfig(struct machine &amp;MyTuring)</div><div class="ttdoc">Выводит ленту на экран</div><div class="ttdef"><b>Definition</b> <a href="_realized_turing_8cpp_source.html#l00161">RealizedTuring.cpp:161</a></div></div>
+<div class="ttc" id="a_realized_turing_8cpp_html_a97253657ceb321fb00beff34bc72a3ee"><div class="ttname"><a href="_realized_turing_8cpp.html#a97253657ceb321fb00beff34bc72a3ee">OneStepTur</a></div><div class="ttdeci">void OneStepTur(bool &amp;error)</div><div class="ttdoc">Выполняет один шаг машины Тьюринга</div><div class="ttdef"><b>Definition</b> <a href="_realized_turing_8cpp_source.html#l00205">RealizedTuring.cpp:205</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Граф вызовов:</div>
+<div class="dyncontent">
+<div class="center"><img src="_realized_turing_8h_ae508f8f1ff18ebda3acf51d3bca8e050_cgraph.png" border="0" usemap="#a_realized_turing_8h_ae508f8f1ff18ebda3acf51d3bca8e050_cgraph" alt=""/></div>
+<map name="a_realized_turing_8h_ae508f8f1ff18ebda3acf51d3bca8e050_cgraph" id="a_realized_turing_8h_ae508f8f1ff18ebda3acf51d3bca8e050_cgraph">
+<area shape="rect" title="Выполняет полный цикл работы машины Тьюринга" alt="" coords="5,81,84,108"/>
+<area shape="rect" href="_realized_turing_8cpp.html#a97253657ceb321fb00beff34bc72a3ee" title="Выполняет один шаг машины Тьюринга" alt="" coords="132,56,222,83"/>
+<area shape="poly" title=" " alt="" coords="84,85,116,78,117,83,85,90"/>
+<area shape="rect" href="_realized_turing_8cpp.html#a65ee995b2e5bb49ea0d97f5d6bb2a95b" title="Выводит ленту на экран" alt="" coords="135,107,219,133"/>
+<area shape="poly" title=" " alt="" coords="85,100,120,106,119,112,84,105"/>
+<area shape="rect" href="_realized_turing_8cpp.html#ad3d9da862a8b0d51ed80244313d377aa" title="Осуществляет выбор одного действия машины" alt="" coords="284,31,366,57"/>
+<area shape="poly" title=" " alt="" coords="222,59,268,51,269,56,223,64"/>
+<area shape="rect" href="_realized_turing_8cpp.html#a4a56acb7ea89633e0a02f6286b266754" title="Осуществляет вывод ошибки для несуществующего символа" alt="" coords="270,81,379,108"/>
+<area shape="poly" title=" " alt="" coords="223,74,255,80,254,85,222,80"/>
+<area shape="rect" href="_realized_turing_8cpp.html#a2003c01c1ec267222342a3a2462f11ea" title="Осуществляет вывод ошибки для несуществующей команды движения головки" alt="" coords="427,5,552,32"/>
+<area shape="poly" title=" " alt="" coords="366,35,412,28,412,33,366,40"/>
+<area shape="rect" href="_realized_turing_8cpp.html#aa175ef646c7fd47d9b18fa8c62db9730" title="Осуществляет расширение ленты по надобности" alt="" coords="442,56,537,83"/>
+<area shape="poly" title=" " alt="" coords="366,48,427,57,426,62,366,53"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<map id="ResizeString" name="ResizeString">
+<area shape="rect" id="Node000001" title="Осуществляет расширение ленты по надобности" alt="" coords="400,5,496,32"/>
+<area shape="rect" id="Node000002" href="$_realized_turing_8cpp.html#ad3d9da862a8b0d51ed80244313d377aa" title="Осуществляет выбор одного действия машины" alt="" coords="270,5,352,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="385,21,353,21,353,16,385,16"/>
+<area shape="rect" id="Node000003" href="$_realized_turing_8cpp.html#a97253657ceb321fb00beff34bc72a3ee" title="Выполняет один шаг машины Тьюринга" alt="" coords="132,5,222,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="254,21,222,21,222,16,254,16"/>
+<area shape="rect" id="Node000004" href="$_realized_turing_8cpp.html#ae508f8f1ff18ebda3acf51d3bca8e050" title="Выполняет полный цикл работы машины Тьюринга" alt="" coords="5,5,84,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="116,21,84,21,84,16,116,16"/>
+</map>

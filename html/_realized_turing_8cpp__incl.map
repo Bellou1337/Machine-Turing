@@ -1,0 +1,19 @@
+<map id="RealizedTuring.cpp" name="RealizedTuring.cpp">
+<area shape="rect" id="Node000001" title="Файл c реализацией машины Тьюринга" alt="" coords="225,5,356,32"/>
+<area shape="rect" id="Node000002" href="$_realized_turing_8h.html" title="Заголовочный файл для определения всех функций и структур в dll." alt="" coords="232,80,349,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="293,33,293,64,288,64,288,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,155,59,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="243,110,74,157,73,151,242,105"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="83,155,154,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="262,110,164,151,162,146,260,105"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="179,155,234,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="278,109,234,146,231,142,274,105"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="259,155,323,181"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="293,107,293,139,288,139,288,107"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="347,155,403,181"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="307,105,350,142,347,146,304,109"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="427,155,466,181"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="319,105,414,149,412,154,317,110"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="490,155,553,181"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="332,105,476,150,474,155,330,110"/>
+</map>

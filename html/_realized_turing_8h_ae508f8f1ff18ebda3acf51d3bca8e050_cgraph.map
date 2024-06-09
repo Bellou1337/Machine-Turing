@@ -1,0 +1,15 @@
+<map id="StartFunc" name="StartFunc">
+<area shape="rect" id="Node000001" title="Выполняет полный цикл работы машины Тьюринга" alt="" coords="5,81,84,108"/>
+<area shape="rect" id="Node000002" href="$_realized_turing_8cpp.html#a97253657ceb321fb00beff34bc72a3ee" title="Выполняет один шаг машины Тьюринга" alt="" coords="132,56,222,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,85,116,78,117,83,85,90"/>
+<area shape="rect" id="Node000007" href="$_realized_turing_8cpp.html#a65ee995b2e5bb49ea0d97f5d6bb2a95b" title="Выводит ленту на экран" alt="" coords="135,107,219,133"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="85,100,120,106,119,112,84,105"/>
+<area shape="rect" id="Node000003" href="$_realized_turing_8cpp.html#ad3d9da862a8b0d51ed80244313d377aa" title="Осуществляет выбор одного действия машины" alt="" coords="284,31,366,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="222,59,268,51,269,56,223,64"/>
+<area shape="rect" id="Node000006" href="$_realized_turing_8cpp.html#a4a56acb7ea89633e0a02f6286b266754" title="Осуществляет вывод ошибки для несуществующего символа" alt="" coords="270,81,379,108"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="223,74,255,80,254,85,222,80"/>
+<area shape="rect" id="Node000004" href="$_realized_turing_8cpp.html#a2003c01c1ec267222342a3a2462f11ea" title="Осуществляет вывод ошибки для несуществующей команды движения головки" alt="" coords="427,5,552,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="366,35,412,28,412,33,366,40"/>
+<area shape="rect" id="Node000005" href="$_realized_turing_8cpp.html#aa175ef646c7fd47d9b18fa8c62db9730" title="Осуществляет расширение ленты по надобности" alt="" coords="442,56,537,83"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="366,48,427,57,426,62,366,53"/>
+</map>

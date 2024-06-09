@@ -1,2 +1,2 @@
-# Machine-Turing
+# Machine-Turing (ИЗ семестр 2, ПИОТА)
 Не списывайте бездумно
